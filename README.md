@@ -47,6 +47,7 @@ A PowerShell script to scan your Windows computer for potential Remote Access Tr
 1. Put the `CheckForRATsWithLogging.ps1` file on the Desktop.
 2. Open PowerShell or Command Prompt.
 3. Run the following command, replacing `Shane` with your username:
+
    ```sh
    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\Shane\Desktop\CheckForRATsWithLogging.ps1"
    ```
@@ -80,9 +81,3 @@ The script generates a log file (`CheckForRATsLog.txt`) on your Desktop. This lo
 ### Unusual Startup Items
 - **Normal:** Startup items associated with known software.
 - **Suspicious:** Items pointing to unknown executables or those located in unusual directories.
-
-## Contributing
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before getting started.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

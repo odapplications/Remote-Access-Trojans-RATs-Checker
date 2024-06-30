@@ -32,14 +32,14 @@ A PowerShell script to scan your Windows computer for potential Remote Access Tr
 
 ## Installation
 1. Clone this repository to your local machine:
-   \`\`\`sh
+   ```sh
    git clone https://github.com/odapplications/Remote-Access-Trojans-RATs-Checker.git
-   \`\`\`
+   ```
 
 2. Navigate to the directory:
-   \`\`\`sh
+   ```sh
    cd Remote-Access-Trojans-RATs-Checker
-   \`\`\`
+   ```
 
 ## Usage
 
@@ -47,9 +47,9 @@ A PowerShell script to scan your Windows computer for potential Remote Access Tr
 1. Put the `CheckForRATsWithLogging.ps1` file on the Desktop.
 2. Open PowerShell or Command Prompt.
 3. Run the following command, replacing `Shane` with your username:
-   \`\`\`sh
+   ```sh
    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\Shane\Desktop\CheckForRATsWithLogging.ps1"
-   \`\`\`
+   ```
 
 ### Dev Mode
 1. Open a text editor.
